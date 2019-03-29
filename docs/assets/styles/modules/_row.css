@@ -1,0 +1,20 @@
+.row {
+
+  @mixin clearfix;
+
+  &__4 {
+    float: left;
+    width: 33.33%
+  }
+  &__8{
+    float: left;
+    width: 66.67%
+  }
+
+  &--gutters > div {
+    /* > : select childrens with tag of div*/
+    padding-right: 65px;
+    box-sizing: border-box;
+    /* won't affect defined width value */
+  }
+}
