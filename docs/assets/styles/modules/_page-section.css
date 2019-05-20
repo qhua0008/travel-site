@@ -26,6 +26,10 @@
     color: #FFF;
   }
 
+  &--light-blue {
+    background-color: rgba($mainBlue, 0.2);
+  }
+
   &--testimonials {
     background-color: #e0e6ef;
 

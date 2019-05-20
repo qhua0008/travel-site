@@ -667,6 +667,10 @@ a {
     color: #FFF;
   }
 
+.page-section--light-blue {
+    background-color: rgba(47,85,114, 0.2);
+  }
+
 .page-section--testimonials {
     background-color: #e0e6ef;
   }
